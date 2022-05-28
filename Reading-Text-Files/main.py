@@ -15,13 +15,10 @@ def count_words(str):
  # [assignment] Add your code here
     counts=dict()
     words= str.split()
- # iterate over each word in line
     for word in words:
- # check if the word is already in dictionary
         if word in counts:
             counts[word] += 1
         else:
-#add the word to dictionary with count 1
            counts[word] = 1
     return counts
 
